@@ -53,7 +53,7 @@
 对于数组我们是使用下标来进行处理的
 
     int[] arrays = new int[10];
-       for(int i = 0 ; i  arrays.length ; i++){
+       for(int i = 0 ; i<arrays.length ; i++){
            int a = arrays[i];
            do something
        }
