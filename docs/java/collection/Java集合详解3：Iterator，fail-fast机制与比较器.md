@@ -336,8 +336,8 @@ protected transient int modCount = 0;
         this.modCount += 1;    修改modCount
          省略此处代码 
     }
-
-   public boolean remove(Object paramObject) {
+    
+    public boolean remove(Object paramObject) {
         int i;
         if (paramObject == null)
             for (i = 0; i  this.size; ++i) {
