@@ -61,7 +61,7 @@
 对于ArrayList是这么处理的
 
     ListString list = new ArrayListString();
-       for(int i = 0 ; i  list.size() ;  i++){
+       for(int i = 0 ; i<list.size() ;  i++){
           String string = list.get(i);
           do something
        }
